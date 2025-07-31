@@ -1,0 +1,12 @@
+# node
+/node_modules
+/examples/*/node_modules
+/packages/*/node_modules
+/dist
+/examples/*/dist
+/packages/*/dist
+/examples/*/build
+/packages/*/build
+
+# IDE
+/.idea

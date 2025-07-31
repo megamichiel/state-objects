@@ -1,0 +1,17 @@
+{
+  "name": "state-objects-mono",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "vite": "npm run vite -w examples/react-state-object-examples",
+    "formik": "npm run vite -w examples/formik-state-forms-examples",
+    "test": "npm run test -w examples/react-state-object-examples"
+  },
+  "workspaces": [
+    "packages/state-objects",
+    "packages/react-state-objects",
+    "packages/formik-state-forms",
+    "examples/*"
+  ]
+}
